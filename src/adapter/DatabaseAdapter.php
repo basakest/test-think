@@ -7,7 +7,7 @@ use Casbin\Model\Model;
 use Casbin\Persist\Adapter;
 use Casbin\Persist\AdapterHelper;
 use Casbin\Persist\UpdatableAdapter;
-use think\Db;
+use think\facade\Db;
 
 /**
  * DatabaseAdapter.
